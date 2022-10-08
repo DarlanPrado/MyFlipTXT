@@ -44,15 +44,23 @@ main{
    border-top: 0.4px solid #bbb6cf;
 }
 
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    gap:4vw;
+    
+    
+}
 .options{
     background-color: #2c2e41;
     display: flex;
     flex-direction: column;
-    width: 290px;
+    width: 20vw;
     height: 290px;
-    margin: 20px;
     gap: 20px;
     border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 15%;
 }
 
 .options > button{
@@ -65,7 +73,62 @@ main{
     border: none;
     color: #5e5870;
     border-radius: 10px;
+    margin-top: 25px;
 }
+
+.painel{
+    background-color: #2c2e41;
+    width: 45vw;
+    height: 40vw;
+    margin: 3vw 0px 20px 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.painelAnotação{
+
+    background-color: #2c2e41;
+    width: 25vw;
+    height: 40vw;
+    margin: 3vw 40px 20px 0px;
+    border-radius: 30px;
+}
+
+.texto{
+    width: 100%-60px ;
+    height: 75%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.resposta{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    border-top: 0.4px solid #bbb6cf;
+}
+
+.resposta > button{
+    padding-top: 10px;
+    height: 35%;
+    width: 30%;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    background-color:  #1d1e26;
+    border: none;
+    color: #5e5870;
+    border-radius: 10px;
+    font-weight: 420;
+    font-size: 20px;
+    align-items: center;
+}
+
 
 
 
